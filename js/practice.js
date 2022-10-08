@@ -6,3 +6,8 @@ var dateInput = prompt ("Enter date of birth;");
 
 var birthDate = new Date('2022-10-08');
 
+var dateYenyewe = birthDate.getDay();
+
+var genderFemale = femaleNames[dateYenyewe];
+
+var genderMale = maleNames[dateYenyewe];
